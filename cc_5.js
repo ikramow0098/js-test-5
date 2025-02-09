@@ -31,3 +31,8 @@ console.log(discountedPrices);
 const inventory = [5, 0, 12, 8, 0];
 const availableProducts = inventory.filter(quantity => quantity > 0);
 console.log(availableProducts);
+
+// Task 6: Reduce Method - Revenue Calculation
+const sales = [500, 300, 200, 400];
+const totalRevenue = sales.reduce((total, sale) => total + sale, 0);
+console.log(`Total Revenue: $${totalRevenue}`);
