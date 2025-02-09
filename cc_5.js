@@ -13,3 +13,11 @@ const order = {
     }
 };
 order.displayOrder();
+
+//Task 3: Array Manipulation - Shopping Cart
+let cartItems = ["Laptop", "Phone", "Headphones"];
+cartItems.push("Tablet"); // Add item at the end
+cartItems.pop(); // Remove last item
+cartItems.unshift("Smartwatch"); // Add item at the beginning
+cartItems.shift(); // Remove first item
+console.log(cartItems);
