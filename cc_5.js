@@ -21,3 +21,8 @@ cartItems.pop(); // Remove last item
 cartItems.unshift("Smartwatch"); // Add item at the beginning
 cartItems.shift(); // Remove first item
 console.log(cartItems);
+
+// Task 4: Map Method - Price Adjustments
+const prices = [100, 200, 300];
+const discountedPrices = prices.map(price => price * 0.9); // Apply 10% discount
+console.log(discountedPrices);
