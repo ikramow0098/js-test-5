@@ -53,3 +53,7 @@ const applyDiscount = function (price, discount) {
     return price - (price * discount);
 };
 console.log(`Discounted Price: $${applyDiscount(100, 0.2)}`);
+
+// Task 10: Arrow Function - Loyalty Points
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount / 10);
+console.log(`Loyalty Points for $250: ${calculatePoints(250)}`);
