@@ -47,3 +47,9 @@ function calculateTax(amount, taxRate) {
     return amount * taxRate;
 }
 console.log(`Tax on $100 at 10%: $${calculateTax(100, 0.1)}`);
+
+// Task 9: Function Expression - Discount Application
+const applyDiscount = function (price, discount) {
+    return price - (price * discount);
+};
+console.log(`Discounted Price: $${applyDiscount(100, 0.2)}`);
